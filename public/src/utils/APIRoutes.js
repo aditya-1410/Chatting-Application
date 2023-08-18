@@ -1,0 +1,11 @@
+export const host="http://localhost:3001"
+export const registerRoute = `${host}/api/auth/register`
+export const loginRoute = `${host}/api/auth/login`
+export const setAvatarRoute = `${host}/api/auth/setAvatar`
+export const allUsersRoute = `${host}/api/auth/allUsers`
+export const sendMessageRoute = `${host}/api/messages/addmsg`
+export const getMessagesRoute = `${host}/api/messages/getmsg`
+export const delMessagesRoute = `${host}/api/messages/delmsg`
+export const likeMessagesRoute = `${host}/api/messages/likemsg`
+export const saveMessagesRoute = `${host}/api/save/saveMsg`
+export const getSavedMessagesRoute = `${host}/api/save/getSavedMsg`
